@@ -48,7 +48,7 @@ public class Person {
 			this.tax = tax;
 		}
 		public String tostring() {
-			return [name="+name+", gender="+gender+", age="+age+", mobileNumber="+MobileNumber+",income="+income+"]
+			return [name="+name+"; gender="gender" ; age= age  ; mobileNumber= MobileNumber ;income= "income"];
 		}
 
 

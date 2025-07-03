@@ -44,7 +44,7 @@ public class PersonDemo {
        System.out.println(person.getIncome());
        System.out.println(person.getTax());
        TaxCalculation calc= new TaxCalculation();
-       calc.calculateTax(person)
+       calc.calculateTax(person);
        
        //System.out.println(person.getName());
        
