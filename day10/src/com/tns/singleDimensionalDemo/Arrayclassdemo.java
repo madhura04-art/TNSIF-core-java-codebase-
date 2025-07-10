@@ -16,11 +16,11 @@ public class Arrayclassdemo {
       Arrays.sort(intarr);
       System.out.println(Arrays.toString(intarr));
     	  
-      System.out.println(Arrays.binarySearch(intarr,9));
+      System.out.println(Arrays.binarySearch(intarr,35));
        
        int intarr1[]= {69,20,12,40 ,35};
        
-       int intarr2[]= Arrays.copyOf(intarr,2);
+       int intarr2[]= Arrays.copyOf(intarr1,2);
        System.out.println(intarr2);
        
        

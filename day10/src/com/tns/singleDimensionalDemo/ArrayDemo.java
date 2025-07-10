@@ -1,6 +1,7 @@
 package com.tns.singleDimensionalDemo;
 
 public class ArrayOperation {
+	
 	static void  printArray(int arr[]) {
 	    for (int i=0;i<arr.length;i++) {
 	    	System.out.print(arr[i]);
@@ -33,7 +34,7 @@ public class ArrayOperation {
 	}
 
 }
-public class arrayDemo{
+public class ArrayDemo{
 	public static void main(String args[]) {
 		int n=10;
 		int a[];
